@@ -22,7 +22,7 @@ Only via npm: `npm i --save music.note.enharmonics`
 
 ## Usage
 
-There's only [one simple function]()
+There's only [one simple function](https://github.com/danigb/music.note.enharmonics/blob/master/API.md)
 
 ## License
 

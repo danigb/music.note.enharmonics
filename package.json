@@ -1,12 +1,12 @@
 {
   "name": "music.note.enharmonics",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Get enharmonics of a note",
   "main": "index.js",
   "scripts": {
     "test": "vows --spec test/*.js",
     "docs": "docme API.md",
-    "dist": "browserify index.js > dist/music.note.enharmonics.js && browserify index.js | uglifyjs > dist/music.note.enharmonics.min.js && ls -all dist/*",
+    "dist": "browserify index.js | uglifyjs > dist/music.note.enharmonics.min.js && ls -all dist/*",
     "coverage": "istanbul cover vows test/*.js",
     "cover": "npm run coverage && open ./coverage/lcov-report/index.html",
     "benchmarks": "node test/benchmarks/*.js",
@@ -19,6 +19,8 @@
   },
   "keywords": [
     "music",
+    "note",
+    "enharmonics",
     "music.kit"
   ],
   "author": "danigb",
